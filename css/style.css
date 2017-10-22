@@ -1,0 +1,140 @@
+/* 
+=============================
+
+		Universal
+
+=============================
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+
+/* 
+=============================
+
+		Base Styles
+
+=============================
+*/
+
+.wrapper {
+	margin: 0 auto;
+
+}
+
+.container {
+	padding: 0px 1em;
+}
+
+header .nav {
+	height: 20%;
+	max-height: 300px;
+}
+
+.main-header {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #4F5D75;
+	margin-bottom: 0.5em;
+
+}
+
+.nav ul {
+	list-style: : none;
+	margin: 0px;
+}
+
+
+.nav ul li {
+	margin-top: 0.5em;
+	margin-right: 3em;
+	color: #000;
+	padding: 1em 0px;
+	display: inline-block;
+	background: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.nav ul li a:link {
+    color: #000;
+    padding: 1em 2em;
+}
+
+/* 
+=============================
+
+		Input
+
+=============================
+*/
+
+.workout {
+	margin: 2em 10% 2px 10%;
+	height: 30em;
+	width: 80%;
+	display: block;
+	box-shadow: 8px 8px 5px #888888;
+	border-radius: 4px;
+	border-style: outset;
+	border-width: 3px;
+}
+
+#insertText {
+	opacity: 0.7;
+}
+
+.submitWorkout {
+	width: 80%;
+	height: 2em;
+	margin: 0.3em 10% 0.1em 10%;
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 1.5em;
+	border-radius: 4px;
+	border-style: none;
+	box-shadow: 3px 3px 1px #888888;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* 
+=============================
+
+		Desktop
+
+=============================
+*/
+
+@media screen and (min-width: 769px;) {
+	
+	.wrapper {
+		min-height: calc(100vh - 89px);
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	header .main-header {
+		max-height: 10em;
+	}
+
+	.container {
+		width: 80%;
+		max-width: 1150px;
+		margin: 0 auto;
+		font-family: 'Roboto', sans-serif;
+	}
+}

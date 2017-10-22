@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+====================================================================================================
+									Workout Generator
+
+This app was built as a tool to help me learn how to program. One of the things that I enjoy doing is working out but one of the biggest issues I have is chosing what to traing. This webapp is designed so that you can submit your favourite workouts, give them a rating and everyday, have a random workout delivered to your inbox. All the workouts your submit are private and are not submitted to the public directory unless you chose to upload them. 
+
+===================================================================================================
+-->
+
+
+	<head>
+
+		<title>Workout Generator</title>
+		<script src="js/js-test.js" type="text/javascript"></script>
+		<link href="css/normalize.css" rel="stylesheet" typy="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<meta charset="UTF-8">
+
+	</head>
+
+		<!-- 
+		===========================
+				Body 
+		===========================
+		-->
+
+	<body>
+		
+		<div class="wrapper">
+		
+		<!-- 
+		===========================
+				Navigation
+		===========================
+		-->
+		<header class="main-header">
+		<div class="nav">
+			<ul class="menu">
+				<li id="navHome"><a href="#">Home</a></li>
+				<li id="addNewWorkout"><a href="#">Add New Workout</a></li>
+				<li id="loggedWorkouts"><a href="#">See Your Workouts</a></li>
+			</ul>
+
+		</div>
+		</header>
+		<div class="container">
+		<!-- 
+		===========================
+				Add Workout
+		===========================
+		-->
+
+		<div class="addWorkout">
+		
+			<textarea class="workout" placeholder="Type your workout here.."></textarea> 
+			<select class="workout-properties">
+				<option value="selectOne">Select One</option>
+				<option value="run">Run</option>
+				<option value="crossfit">Crossfit</option>
+			</select>
+			<select class="workout-properties" placeholder="select one">
+				<option value="good">Good</option>
+				<option value="bad">Bad</option>
+				<option value="alright">Alright</option>
+			</select>
+			<button type="input" class="submitWorkout">SAVE YOUR WORKOUT</button>
+
+
+		</div>
+
+		<!-- 
+		===========================
+				Workout List 
+		===========================
+		-->
+
+			<div class="workoutList">
+
+
+			</div>
+
+		</div> <!-- container -->
+		
+		</div> <!-- .wrap -->
+	
+	</body>
+
+
+		<!-- 
+		===========================
+				Footer
+		===========================
+		-->
+	<footer class="footer">
+		
+
+	</footer>
+
+</html>
